@@ -1,0 +1,78 @@
+
+html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(https://scontent.fphl2-1.fna.fbcdn.net/v/t1.0-9/13939549_1787216374830374_3617959367139108171_n.jpg?oh=bf511e9d6c56baa9b037db6f1e4916c3&oe=59A5FDD2) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+body{
+  margin: 0;
+}
+
+.header{
+    background-color: rgba(30,50,80,0.95);
+    color: #e1e1e1;
+    padding: 1px;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    width: 100%;
+    display: block;
+    position: fixed;
+    margin-top: -24rem;
+    text-align: center;
+    z-index: 99;
+    border: 6px solid black;
+}
+
+.header h1{
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.links a{
+  color: #e1e1e1;
+  width:100%;
+  font-family: 'Old Standard TT', serif;
+  display: inline;
+  margin: 0 12%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.top{
+  margin:20rem 9rem 8rem 9rem;
+  border: .2rem solid black;
+  border-radius: .5rem;
+  padding: 3rem 7rem;
+  background-color: hsla(28,20%,100%,0.88);
+  display: block;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.post {
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: 9rem;
+  font-size: 1.2rem;
+  padding: 3rem 7rem;
+  background-color: hsla(28,20%,100%,0.88);
+  display: block;
+  position: relative;
+}
+
+.hidden{
+  display: none;
+}
+
+h1{
+  text-align: center;
+}
