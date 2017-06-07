@@ -3,12 +3,13 @@ const sundayGrind = () => {
   function readMore() {
     const post = this.parentElement;
     const paragraphs = post.childNodes;
-    console.log(paragraphs[3]);
     paragraphs.forEach(child => {
       if (child.className === 'hidden'){
         child.classList.remove('hidden');
       }
     });
+
+    this.classList.add('hidden');
   };
 
   const readMoreClickHandler = () => {

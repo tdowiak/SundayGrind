@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>The Sunday Grind</title>
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Cormorant+SC|Karla" rel="stylesheet">
   <link rel="stylesheet" href="SundayGrind.css">
   <script src="SundayGrind.js"> </script>
 </head>
@@ -10,10 +11,8 @@
 <body>
 
   <div class = "header">
-    <div class = "title">
-      <h1>The Sunday Grind</h1>
-      <p>A blog about moving up the ranks of tournament paintball.</p>
-    </div>
+    <h1 class="page-title">The Sunday Grind</h1>
+    <p>A blog about moving up the ranks of tournament paintball.</p>
 
     <div class="links">
       <a href = "SundayGrind.html"> blog </a>
@@ -22,35 +21,49 @@
     </div>
   </div>
 
-  <div class = "top" >
-    <h1> The Most Important Skills in the Modern Game </h1>
-    <p> Content  Content  Content  Content  Content  Content  Content  Content
+  <div class ="post-container">
+  <div class="post" >
+    <h1 class = "article-title"> The Most Important Skills in the Modern Game </h1>
+    <p class="visible"> Content  Content  Content  Content  Content  Content  Content  Content
      Content  Content  Content  Content  Content  Content  Content
     Content  Content  Content  Content  Content  Content  Content
    Content  Content  Content  Content  Content  Content  Content </p>
+   <input class="readMoreButton" type="button" value="read more" data-post="2"/>
   </div>
 
-  <div class = "post" data-key ="1">
-    <h1> How Do I Move Up the Ranks? </h1>
+  <div class="post" data-key="1">
+    <h1 class = "article-title"> How Do I Move Up the Ranks? </h1>
     <p> Content </p>
-    <input  class="readMoreButton" type="button" value="read more" data-item="0"/>
+    <input  class="readMoreButton" type="button" value="read more" data-post="1"/>
   </div>
 
-  <div class = "post" data-key ="0">
-    <h1> Why you are still D4. </h1>
-    <p class = "visible"> "D4 for life."  "Forever D4." "I've been playing for 7 years and I'm still ranked D4."  I can't even
+  <div class="post" data-key="0">
+    <h1 class = "article-title"> Why you are still D4. </h1>
+    <p class="visible"> "D4 for life."  "Forever D4." "I've been playing for 7 years and I'm still ranked D4."  I can't even
     count the number of times I've heard this. Often times they are totally perplexed at how they
     haven't progressed past the "rookie" rank in our sport. Even worse, most of them believe they
     "should be ranked higher" (maybe some of you should, but most of you shouldn't.)  My goal is
-    to hopefully clear up some confusion about why you are struggling to move up the ranks.</p>
+    to hopefully clear up some confusion about why might be struggling to move up the ranks.</p>
     <p class="hidden">  Let me preface this by saying I do not believe APPA rankings are a
-    good measure of skill, but they do give an idea of how successful a player has been in recent years. So
-    in essence, a D4 ranking equates to "not very succesful." There are a lot of possible reasons for this,
+    good indicator of skill, but they do give an idea of how successful a player has been in recent years. So
+    in essence, a D4 ranking generally means you've been... not very succesful. There are a lot of possible reasons for this,
     but they all boil down to two basic problems: you aren't putting in enough effort as an individual and
     you aren't putting in enough effort as a team. </p>
-    <p class = "hidden">"But I'm practicing every Sunday!!" </p>
-    <input class="readMoreButton" type="button" value="read more" data-item="0"/>
+    <p class = "hidden">"But I'm practicing every Sunday!!" Good! That's a great start. Unfortunately there's much
+    more to getting better than simply showing up and playing paintball. You have to be mentally engaged in every every
+    game and drill i.e. actually focusing on improving a certain aspect of your game. This might mean focusing all your
+    mental energy into getting to the 50 snake as quickly as possible or simply holding your gun with proper form.
+    Each practice choose two aspects of your game that you feel are weak and work on improving just those two things.
+    You may want to watch better players (preferably pros) to see how they do the thing you're struggling with. </p>
+    <p class = "hidden">"What if I don't know what I need to work on?" If you're asking this question, you're probably
+    either winning every game in practice against terrible competition or losing every game against competition that is
+    way out of your league. If the former, you need to find a way to practice against competition that actually challenges
+    you and your team. If the latter, pay closer attention to how the other team is beating you. A good trick is to watch
+    how they are killing your first two bodies. Once a team gets a 2-body advantage, they are going to win that point 90%
+    of the time. Usually there will be a trend.</p>
+    <input class="readMoreButton" type="button" value="read more" data-post="0"/>
   </div>.
+</div>
 
 </body>
 
